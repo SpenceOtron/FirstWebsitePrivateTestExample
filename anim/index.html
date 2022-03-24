@@ -2,16 +2,14 @@
 <html>
 <head>
 
-<meta http-equiv="refresh" content="6;url=http://www.google.com/" />
-
 <script>
 function myFunction() {
   alert("Cookie set to hello");
-  document.cookie = "name=Hello; SameSite=None; Secure";
+  document.cookie = "name=Hello; domain=spenceotron.github.io/FirstWebsitePrivateTestExample/; Secure";
 }
 function myFunctionTwo() {
   alert("Cookie set to hi there");
-  document.cookie = "book=Hi There; SameSite=None; Secure";
+  document.cookie = "book=Hi There; domain=spenceotron.github.io/FirstWebsitePrivateTestExample/; Secure";
 }
 function getCookie() {
   decodedCookie = decodeURIComponent(document.cookie)
